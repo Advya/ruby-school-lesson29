@@ -1,5 +1,3 @@
-#encoding: utf-8
-require 'rubygems'
 require 'sinatra'
 require 'sinatra/reloader'
 require 'sinatra/activerecord'
@@ -14,5 +12,5 @@ end
 
 get '/' do
 	@barbers = Barber.all
-	erb :index 
+  	erb :index
 end
