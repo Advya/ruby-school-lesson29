@@ -36,3 +36,7 @@ post '/visit' do
 		erb :visit
 	end
 end
+
+get '/barber/:id' do
+	erb "This is gona be barber page"
+end
